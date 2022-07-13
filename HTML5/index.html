@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>page-title</title> <!--header of the page will be written here.-->
+    <title>index page</title> <!--header of the page will be written here.-->
 </head>
 <!--In HTML=> Every opening tag should have corresponding closing tag. -->
 <body>
     <!--header tags-->
     <center>
         <h1>Hey! this is my first sentence in HTML5.</h1>
-    </center> <!--if the tag is show in red-color, it is not-recommanded to use. -->
+    </center> <!--if the tag is show in red-color, it is not-supported in HTML5. -->
 
     <!--With the help of CSS, we can display it in the center, instead of Center-tag. -->
     <h1 style="text-align:center">Using CSS displaying it in Center. </h1>
@@ -39,23 +39,51 @@
     </p> <!--Placing h2 tag, in paragraph tag => considered as "Nesting Of Tags."-->
 
     <i>This is my Italic text</i> <br/><!--Italic format. -->
-        <em>This is Emphesis text</em> <br/><!--it is similar to italic, but it has more importance-->
-        <mark>This is Mark Tag </mark> <br/> <!-- Used for to Highlight the text-->
-        <small>It displays the content in small format. </small> <br/>
-        <ins>This is inserted text. </ins> <br/>
-        <u>This is Un-articulated tag.</u> <br/>
-        <pre>
-            <code> <!-- You can place your code, in the code tag.-->
-                public class Test {
-                    public static void main(String args[]) {
-                        System.out.println("Hello World!");
-                    }
+    <em>This is Emphesis text</em> <br/><!--it is similar to italic, but it has more importance-->
+    <mark>This is Mark Tag </mark> <br/> <!-- Used for to Highlight the text-->
+    <small>It displays the content in small format. </small> <br/> <!--The small element represents side comments such as small print. -->
+    <s>It is a Small tag.</s> <br/> <!--The s element represents contents that are no longer accurate or no longer relevant.-->
+    <del>this is del tag. => represents a removal from the document.</del> <!--The del element represents a removal from the document.--> <br/>
+
+    <ins>This is inserted text. </ins> <br/> <!--Inserted tag.-->
+    <u>This is Un-articulated tag.</u> <br/>
+    <pre>
+        <code> <!-- You can place your code, in the code tag.-->
+            public class Test {
+                public static void main(String args[]) {
+                    System.out.println("Hello World!");
                 }
-            </code> <br/>  
-        </pre>
-        <var> <!--This is Variable tag.-->
-            (a+b)2 = a2+2ab+b2
-        </var>
+            }
+        </code> <br/>  
+    </pre>
+    <var> <!--This is Variable tag.-->
+        (a+b)2 = a2+2ab+b2
+    </var>
+    <br/> <br/> <br/> <hr/>
+    <!--Day -2--> 
+    <p> Your file is being downloaded.</p>
+    <progress value="33.33" max="100"></progress> <br/>
+    <meter max="100" min="0" value="25"></meter> <br/>
+
+    <!--Anchor tag.-->
+    <a href="https://youtube.com" target="_blank" style="font-size: 30px;">YouTube.</a> <br/>
+    <a href="https://google.com" target="_blank" rel="noopener noreferrer" style="font-size: 40px;">Google</a> <br/>
+    <a href="mailto:sivakumarr96@gmail.com">Send Mail</a> <br/>
+    <a href="tel:+916305580229">Make a Call</a> <br/>
+    <a href="bird.jpg" target="_blank" download>Bird Image.</a> <br/>
+    <a href="https://www.gmail.com" ping="https://youtube.com"> Ping Call </a> <br>
+    <hr/>
+
+    <!--Including the images in the Browser.-->
+    <img src="bird.jpg" alt="Bird Image" width="30%">
+    <img 
+    src="https://i.pinimg.com/originals/86/e1/c5/86e1c5f8101eba5884e809aeb659efb7.jpg" 
+    alt="Rolls Royce." 
+    width="50%"
+    longdes="It gives the description of image."
+    loading="lazy"
+    />
+
 </body>
 </html>
 
