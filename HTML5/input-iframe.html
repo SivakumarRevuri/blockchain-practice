@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input-tag page</title>
+</head>
+<body>
+    <h2>Input tag </h2>
+    <h4>input:text</h4>
+    <div>
+        Enter your name: <input type="text" required name="uname" id="username" autofocus placeholder="Enter your name"> <br/>
+        Enter your password: <input type="password" required name="upass" id="user-password" autofocus> <br/>
+        Country: <input type="text" id="country" readonly>
+    </div>
+    <br/> <br/> <hr/>
+        
+    <div>
+        <h4>input:button</h4>
+        <input type="button" value="Submit">
+    </div>
+    <br/> <hr/>
+    <p>
+        Note: We can use different set of attributes in the type of input tag.
+    </p>
+    <hr/>
+    <div>
+        <h4>input:date</h4>
+        <input type="date" name="" id=""> <br/>
+        <input type="datetime" name="" id=""> <br/>
+        <input type="datetime-local" name="" id=""> <br/>
+    </div>
+    <hr/>
+    <div>
+        <h4>Dropdown-with input </h4>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+            <option value="Opera"></option>
+        </datalist>
+    </div>
+</body>
+</html>

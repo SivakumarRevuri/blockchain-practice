@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form page</title>
+  </head>
+  <body>
+    <div>
+      <h3>Form submission</h3>
+      <!--action: indicates -->
+      <form
+        action="https://bgits.g.i.com"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <fieldset>
+            <legend>Login Details</legend>
+          <li>
+            <label>Enter your Username:</label>
+            <input type="text" name="username" id="user-name" />
+          </li>
+          <li>
+            <label for="">Please enter your Password</label>
+            <input type="password" name="password" id="u-password" />
+          </li>
+          <li>
+            <dl>
+              <ul>
+                <dt>
+                  <label for="male">Male</label>
+                </dt>
+                <dd>
+                  <input type="radio" name="male" id="male" />
+                </dd>
+
+                <dt>
+                  <label for="female">Female</label>
+                </dt>
+                <dd>
+                  <input type="radio" name="female" id="female" />
+                </dd>
+              </ul>
+            </dl>
+          </li>
+          <li>
+            <label for="">Select File:</label>
+            <input type="file" name="file" id="u-file" />
+            <!--If anyfile is sending via form-data, the best way is to add, enctype to "multipart/form-data" -->
+          </li>
+          <br />
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
