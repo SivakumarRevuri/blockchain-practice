@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index page</title> <!--header of the page will be written here.-->
+    <!--adding a external css file to the html via link tag, called "External.
+        and this "Recommanded" way to apply the styling.-->
+    <link rel="stylesheet" href="../CSS/style.css" type="css">
+    <style>
+        /** 
+        Here, we are using style tag to apply the design. This type of styling is called "Internal".
+        */
+        p{
+            text-align: center;
+        }
+    </style>
 </head>
 <!--In HTML=> Every opening tag should have corresponding closing tag. -->
 <body>
@@ -13,7 +24,9 @@
         <h1>Hey! this is my first sentence in HTML5.</h1>
     </center> <!--if the tag is show in red-color, it is not-supported in HTML5. -->
 
-    <!--With the help of CSS, we can display it in the center, instead of Center-tag. -->
+    <!--With the help of CSS, we can display it in the center, instead of Center-tag. 
+        here we are using style attribute to apply CSS, it's called "Inline" style.
+    -->
     <h1 style="text-align:center">Using CSS displaying it in Center. </h1>
     <hr/> <!--Horizantal tag; it is a self-closing tag, it displays a line -->
     <!--Note: it is always best to close the self closing tag, with / while opening the tag itself.-->

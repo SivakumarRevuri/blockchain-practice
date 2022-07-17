@@ -1,0 +1,14 @@
+/**
+=> CSS cascading style sheets
+=> We use selectors(element,id&class) to apply the design, and we need browser to run CSS.
+
+**/
+h1{
+    color: blueviolet;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+progress,meter{
+    margin-left: 45%;
+}
