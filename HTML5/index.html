@@ -7,7 +7,7 @@
     <title>index page</title> <!--header of the page will be written here.-->
     <!--adding a external css file to the html via link tag, called "External.
         and this "Recommanded" way to apply the styling.-->
-    <link rel="stylesheet" href="../CSS/style.css" type="css">
+    <link rel="stylesheet" href="../CSS/style.css">
     <style>
         /** 
         Here, we are using style tag to apply the design. This type of styling is called "Internal".
@@ -36,7 +36,7 @@
     <h3>This is my H3 tag. </h3>
     <h4>This is my H4 tag. </h4>
     <h5>This is my H5 tag. </h5>
-    <h6>This is my H6 tag. </h6>
+    <h6 id="h6-tag">This is my H6 tag. </h6>
 
     <pre> <!-- pre-tag displays the content on the browser, as we have written -->
        <b> Hello! Sivakumar Revuri </b> <!--Bold tag, makes the text bold format-->
@@ -88,7 +88,7 @@
     <hr/>
 
     <!--Including the images in the Browser.-->
-    <img src="bird.jpg" alt="Bird Image" width="30%">
+    <img src="bird.jpg" alt="Bird Image" width="30%"> <br/>
     <img 
     src="https://i.pinimg.com/originals/86/e1/c5/86e1c5f8101eba5884e809aeb659efb7.jpg" 
     alt="Rolls Royce." 
@@ -96,8 +96,43 @@
     longdes="It gives the description of image."
     loading="lazy"
     />
-
+    <br>
+    <!--abbr tag used to show the description for abbreviation when you hover over element-->
+    <h4><abbr title="Hyper Text Markup Language">HTML</abbr> <br/></h4>
+    <h4><abbr title="Cascading Style Sheets">CSS</abbr></h4>
+    <h4 id="h4-align">text-alignment check</h4> <br>
+    <!--<sup> tag defines superscript text-->
+    <p>
+        <var>a <sup>2</sup></var>+
+        <var>2ab</var>+
+        <var>b <sup>2</sup></var> =
+        <var>(a+b) <sup>2</sup></var>
+    </p>
+    <p><time datetime="2022-07-28">July 8</time></p>
+    <!--address tag defines the contact information for the owner of document-->
+    <p>
+        <address>
+            <a href="mailto:john@doe.com">john@doe.com</a> <br/>
+            <a href="tel:+987654321">(987) 654-321</a> <br/>
+            <a href="http://w3c.org">Website</a><br/>
+        </address>
+    </p>
+    <br/>
+    <!--template tag is used as a container to hold some HTML content hidden from the user.
+    The content inside <template> can rendered lated with Javascript.-->
+    <template id="template">
+        <div>Click Me</div>
+    </template>
 </body>
+    <style>
+        abbr{
+            font-size: 40px;
+            text-align: right;
+        }
+        h4#h4-align{
+            text-align: right;
+        }
+    </style>
 </html>
 
 <!--

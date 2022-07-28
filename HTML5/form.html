@@ -54,6 +54,35 @@
           <input type="reset" value="Reset" />
         </fieldset>
       </form>
+      <br>
+      <hr/> <br>
+      <!--tag specifies a list of pre-defined options for an <input> element.
+      It is used to provide an "autocomplete" feature
+      Users will see a drop-down list of pre-defined options-->
+      <label for="ice-cream-choice">Choose a Flavor</label>
+      <input list="ice-cream-flavors" name="ice-cream-choice" id="ice-cream-choice"/>
+      <datalist id="ice-cream-flavors">
+        <option value="Vanilla"></option>
+        <option value="Strawberry"></option>
+        <option value="Butter Scotch"></option>
+        <option value="Choclate"></option>
+        <option value="Blueberry"></option>
+      </datalist>
     </div>
+    <!--optgroup, if you have a long list of options, groups of related
+    options are easier to handle for a user-->
+    <label for="dino-select">Choose a Dinosaur</label>
+    <select id="dino-select">
+      <optgroup label="Theropods">
+        <option value="">Tyrannosaurus</option>
+        <option value="">Velociraptor</option>
+        <option value="">Deinonychus</option>
+      </optgroup>
+      <optgroup label="Sauropods">
+        <option value="">Diplodocus</option>
+        <option value="">Saltasaurus</option>
+        <option value="">Apatosaurus</option>
+      </optgroup>
+    </select>
   </body>
 </html>
