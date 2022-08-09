@@ -6,14 +6,14 @@
 // this is a single line comment
 
 // Declaring variables.
-num = 3
-num = 7
-num = num + 2
+var num = 3
+var num = 7
+var num = num + 2
 console.log(num) 
 
 // english like language
 
-let num = 7     // number
+num = 7     // number
 num = "seven"    // string
 num= 9
 console.log(num)
@@ -36,7 +36,7 @@ console.log(user)
 let num1 = 13
 let num2 = 5
 
-console.log(_num1 % num2)
+console.log(num1 % num2)
 
 let x = 6
 x = "Navin"
