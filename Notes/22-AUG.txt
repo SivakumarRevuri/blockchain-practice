@@ -1,0 +1,8 @@
+The Javascript is a programming language, is used to write the programs to run on webpages.
+
+Javascript can control how a webpage, respond when a user "click"/"moves the mouse".
+
+Example: User can scroll the webpage.
+
+In order to write and run JavaScript programs, all you need is a web browser like Internet Explorer,Mozilla Firefox, or Google Chrome. Every web browser comes with a JavaScript interpreter that understands how to read JavaScript programs.
+
