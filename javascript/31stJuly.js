@@ -10,7 +10,7 @@
  * Boolean
 */
 
-// Declaring variables.
+// Declaring variables. and javascript is case-sensitive.
 var num = 3
 var num = 7
 var num = num + 2

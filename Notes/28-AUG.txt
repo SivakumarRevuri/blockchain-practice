@@ -1,0 +1,13 @@
+Document Object Model(DOM) -
+    => The Document Object Model (DOM) defines the logical structure of documents and the way a document is accessed and manipulated. 
+    => The name "Document Object Model" was choosen because it is an "object model" is used in the traditional object oriented design sense: documents are modeled using objects, and the model encompasses not only the structure of a document, but also the behavior of a document and the objects of which it is composed. 
+    => In other words, the nodes in the above diagram do not represent a data structure, they represent objects, which have functions and identity. 
+
+With the document object model, JavaScript gets all the power it needs to create dynamic HTML:
+    1) JavaScript can change all the HTML elements in the page
+    2) JavaScript can change all the HTML attributes in the page
+    3) JavaScript can change all the CSS styles in the page
+    4) JavaScript can remove existing HTML elements and attributes
+    5) JavaScript can add new HTML elements and attributes (document.write("<p>Hello World!</p>"))
+    6) JavaScript can react to all existing HTML events in the page
+    7) JavaScript can create new HTML events in the page  
